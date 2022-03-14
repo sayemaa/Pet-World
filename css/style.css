@@ -15,6 +15,8 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin */
+    margin: 0 60px;
 }
 
 .navbar-left {
@@ -22,12 +24,14 @@ body, html {
     align-items: center;
     font-weight: 700;
     font-size: 18px;
+    /* margin */
+    margin-left: 40px;
 }
 
 .navbar-left img {
     width: 50px;
     height: 50px;
-    margin: 0 15px;
+    margin-right: 25px;
 }
 
 .navbar-right {
@@ -43,7 +47,46 @@ body, html {
     color: white;
     border: 0px;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 30px;
     padding: 15px 40px;
     border-radius: 10px;
+}
+
+/*----------------------- 
+    Pet Store & Beyond 
+------------------------*/
+
+.pet-store-section {
+    background-color: #F7F5FD;
+    padding: 30px 0;
+}
+
+.pet-store-and-beyond {
+    color: #2D2D2D;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    /* margin */
+    margin: 0 60px;
+}
+
+.text-container {
+    width: 60%;
+    font-size: 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 90px;
+}
+
+.get-started-btn {
+    background-color: #fcd87d;
+    border: 0px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 18px;
 }
